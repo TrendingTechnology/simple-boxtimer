@@ -29,8 +29,7 @@
       "permissions": []
     },
     "web": {
-      "themeColor": "#ffffff",
-      "startUrl": "/simple-boxtimer"
+      "themeColor": "#ffffff"
     }
   }
 }

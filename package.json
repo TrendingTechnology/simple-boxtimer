@@ -7,7 +7,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "build:web": "expo build:web && cp -r web-build/* docs && rm -rf web-build",
+    "build:web": "rm -rf docs/* && expo build:web && cp -r web-build/* docs && rm -rf web-build",
     "build:android": "expo build:android"
   },
   "jest": {
